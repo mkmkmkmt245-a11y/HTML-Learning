@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>MyCode - HTML Learning Platform</title>
+    <style>
+      body { background-image: linear-gradient(170deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); background-attachment: fixed; min-height: 100vh; padding:40px 0 50px 0; }
+
+     .content-area { background: #ffffff71; padding: 40px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); margin-bottom: 30px; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.301); }
+     .logo-circle {
+      background: white;
+      color: #4158D0;
+      width: 60px;
+      height: 60px;
+      border-radius: 70%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 10px;
+      font-size: 2rem;
+       
+      }
+      header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 98%;
+    margin: 0 auto;
+    }
+     </style>
+  </head>
+  <body> 
+    <header>
+     <div class="d-flex align-items-center text-white ms-5">
+    <div class="logo-circle">
+        <i class="bi bi-braces"></i>
+    </div>
+    <span class="fs-5 fw-bold">MyCode</span>
+</div>
+    <div class="d-flex gap-3 me-1">
+        <a href="index.html" class="btn btn-outline-light  shadow-sm" style="border-radius: 50px; padding: 10px 25px;">
+            <i class="bi bi-house-door-fill"></i> Home</a>  
+    <a href="lesson.html" class="btn btn-outline-light  shadow-sm" style="border-radius: 50px; padding: 10px 25px;">
+            <i class="bi bi-journal-code"></i> Lesson</a>
+     <a href="contact.html" class="btn btn-outline-light  shadow-sm" style="border-radius: 50px; padding: 10px 25px;">
+            <i class="bi bi-envelope-at-fill"></i> Contact</a>
+    </div>
+</header>
+    <hr />
+    <div class="container py-4">
+      <div class="row justify-content-center  "> 
+        <div class="col-lg-11">
+          <div class="content-area">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img
+              src="images/coding.svg" 
+              class="d-block mx-lg-auto img-fluid"
+              alt="img"
+              width="700"
+              height="700"
+              loading="lazy"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold  mb-2 ">
+            Welcome to the HTML Learning Site!
+            </h1>
+            <p class="fs-6">
+            Here, you'll discover how to build beautiful and functional
+             websites from scratch. Whether you're a complete beginner or looking to refresh your skills,
+             our step-by-step lessons make learning HTML easy, fun, and practical.
+             Start your journey and create your first website today!"
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <a href="./lesson.html" class="btn btn-outline-light btn-lg px-4 me-md-2">
+                  Start Learning →
+              </a>
+          </div>
+        </div>
+      </div>
+       </div>
+         </div>
+         </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center"> 
+       <div class="col-lg-11">
+        <div class="content-area">
+      <div class="px-4 py-5 my-5 text-center">
+        <div class="col-lg-6 mx-auto">
+         <h1 class="display-7 fw-bold lh-1 mb-4 my-custom-color">HTML Basics-Princeton University</h1>
+          <p>
+          <h5>This material is based on content from Princeton University - COS109.</h5>
+          </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <a href="basics/tem.pdf"download>
+          <button type="button" class="btn btn-outline-light btn-lg px-4 gap-3">
+             Download            
+              <img src="images/download.svg" alt="download button" >
+            </button>
+            </a>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+      </div>
+  </body>
+</html>
